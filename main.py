@@ -28,5 +28,5 @@ wpm = round(number_of_words/final_time*60,2)
 if user_input==string_words:
     print(f"You completed {number_of_words} words in {final_time} seconds or {wpm} words per minute")
 else:
-    print("You have  the typing test, please try again.")
+    print("You have failed the typing test, please try again.")
 
